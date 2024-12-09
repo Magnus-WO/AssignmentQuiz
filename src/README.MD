@@ -10,3 +10,6 @@ I got help from ChatGPT for logging which input the user selected on each questi
 
 ##License
 Only for use by others in education settings
+
+##Link to deployment
+https://assignment-quiz.vercel.app/
