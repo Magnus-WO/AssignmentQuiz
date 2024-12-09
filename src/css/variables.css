@@ -1,0 +1,18 @@
+:root {
+  /* Color */
+  --background-color1: #dbdbdb;
+  --font-color: white;
+  --font-size-question: larger;
+
+  --border-radius: 10px;
+
+  /* Font-size */
+  --font-size-small: 0.9rem;
+  --font-size-base: 1rem;
+  --font-size-medium: 1.2rem;
+  --font-size-large: 1.5rem;
+
+  /* Spacing */
+  --spacing-small: 1rem;
+  --spacing-medium: 1.2rem;
+}

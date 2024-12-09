@@ -1,0 +1,46 @@
+@media screen and (max-width: 885px) {
+  .container-card {
+    width: 80%;
+  }
+
+  .header__paragraph {
+    font-size: var(--font-size-medium);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: var(--font-size-large);
+  }
+  .header__paragraph {
+    font-size: var(--font-size-medium);
+  }
+  .quiz__container {
+    height: 100%;
+    width: 100%;
+  }
+  .alternatives__container {
+    height: 100%;
+    width: 100%;
+    gap: 1.2rem;
+  }
+
+  .alternative__card {
+    width: 16rem;
+    padding: 0 10px;
+  }
+
+  .button {
+    width: 16rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .alternative__card {
+    width: 12rem;
+  }
+
+  .button {
+    width: 12rem;
+  }
+}

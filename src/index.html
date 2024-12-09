@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <form class="container-card">
+      <div class="header-container"></div>
+      <div class="paragraph-container"></div>
+      <!-- form -->
+      <section class="quiz__container">
+        <div class="alternatives__container">
+          <div class="alternative__card alternative1__container">
+            <input
+              type="radio"
+              name="alternative"
+              id="alt1"
+              value="1"
+              class="alternative__input checkbox"
+            />
+            <label for="alt1" id="label1" class="alternative__label"></label>
+          </div>
+
+          <div class="alternative__card alternative2__container">
+            <input
+              type="radio"
+              name="alternative"
+              id="alt2"
+              value="2"
+              class="alternative__input checkbox"
+            />
+            <label for="alt2" id="label2" class="alternative__label"></label>
+          </div>
+
+          <div class="alternative__card alternative3__container">
+            <input
+              type="radio"
+              name="alternative"
+              id="alt3"
+              value="3"
+              class="alternative__input checkbox"
+            />
+            <label for="alt3" id="label3" class="alternative__label"></label>
+          </div>
+
+          <div class="button__container"></div>
+        </div>
+      </section>
+      <div class="navigation">
+        <div class="questions__counter"></div>
+        <div class="restart__button"></div>
+      </div>
+    </form>
+    <script src="./JS/app.js"></script>
+  </body>
+</html>
