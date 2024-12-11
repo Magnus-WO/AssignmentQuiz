@@ -13,3 +13,6 @@ Only for use by others in education settings
 
 ##Link to deployment
 https://assignment-quiz.vercel.app/
+
+##Link to github repo:
+https://github.com/Magnus-WO/AssignmentQuiz
